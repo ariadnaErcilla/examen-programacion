@@ -115,7 +115,6 @@ nav {
 article {
   float: left;
   margin: 30px 10px;
-  position: relative;
   width: 23%; }
 
 .texto-banner {
@@ -127,14 +126,13 @@ article {
   width: 0 auto; }
 
 .img-article {
-  position: relative;
   width: 100%; }
 
 .texto-imagen {
   position: absolute;
   bottom: 0; }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 600px) {
   .article-no-flota {
     clear: both; } }
 

@@ -13,7 +13,6 @@
 article{
     float: left;
     margin: 30px 10px;
-    position: relative;
     width: 23%;
 }
 
@@ -28,7 +27,6 @@ article{
 }
 
 .img-article{
-    position: relative;
     width: 100%;
 }
 
@@ -37,7 +35,7 @@ article{
     bottom:0;
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 600px){
     .article-no-flota{
         clear:both;
     }
