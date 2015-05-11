@@ -1,6 +1,17 @@
 h1, h2, h3, h4, p {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Lato"; }
+
+h1 {
+  font-size: 3rem;
+  color: blue; }
+
+h2 {
+  font-size: 1.5rem; }
+
+.mayuscula {
+  text-transform: uppercase; }
 
 a {
   text-decoration: none;
@@ -20,5 +31,26 @@ a {
 
 .cf:after {
   clear: both; }
+
+.left {
+  float: left; }
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase; }
+
+.background {
+  background: url(../imagenes/homepage.jpg) no-repeat;
+  background-size: cover;
+  height: 380px;
+  margin: 0auto; }
+
+.texto-descriptivo-web {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 64%; }
 
 /*# sourceMappingURL=styles.css.map */
