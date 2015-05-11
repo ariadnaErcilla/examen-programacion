@@ -1,23 +1,44 @@
 .background{
     background: url(../imagenes/home-page.jpg) no-repeat;
     background-size: cover;
-    height:380px;
-    margin: 0auto;
+    height:500px;
+    padding: 50px;
 }
 
 .texto-descriptivo-web{
     margin: 50px auto;
-    margin: 50px;
     width: 75%;
-
 }
 
-section{
-    width: 20%;
+article{
     float: left;
-    margin-left: 30px;
+    margin: 30px 10px;
+    position: relative;
+    width: 23%;
 }
 
-section:last-child{
-    margin-left: 0;
+.texto-banner{
+    text-align: center;
+    margin-top: 60px
+}
+
+.buscador{
+    margin: 100px 0;
+    width: 0 auto;
+}
+
+.img-article{
+    position: relative;
+    width: 100%;
+}
+
+.texto-imagen{
+    position: absolute;
+    bottom:0;
+}
+
+@media all and (max-width: 800px){
+    .article-no-flota{
+        clear:both;
+    }
 }

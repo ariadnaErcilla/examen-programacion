@@ -4,8 +4,26 @@ li{
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
+    padding-left: 20px;
 }
 
 header{
-    margin:20px 0;
+    margin:20px;
+}
+
+.caja-logo{
+    width: 2%;
+    float: left;
+    margin-right: 10px;
+}
+
+.logo{
+   width: 100%;
+}
+
+nav{
+    text-align: right;
+  float: right;
+    padding-right: 50px;
+  width: 50%;
 }

@@ -1,22 +1,33 @@
-h1, h2, h3, h4, p {
+body {
   margin: 0;
   padding: 0;
   font-family: "Lato"; }
 
+h1, h2, h3, p, span {
+  margin: 0;
+  padding: 0; }
+
 h1 {
-  font-size: 3rem;
-  color: blue; }
+  color: white;
+  font-size: 3rem; }
 
 h2 {
   font-size: 1.5rem;
   text-align: center; }
 
-.mayuscula {
-  text-transform: uppercase; }
+h3 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #888;
+  font-style: light; }
 
-a {
-  text-decoration: none;
-  color: black; }
+.texto-logo {
+  font-size: 0.75rem; }
+
+.taggs {
+  font-size: 0.65rem;
+  text-align: center;
+  text-transform: uppercase; }
 
 *,
 *:before,
@@ -33,40 +44,98 @@ a {
 .cf:after {
   clear: both; }
 
-.left {
-  float: left; }
-
 .container {
-  width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 1200px; }
+
+body {
+  margin: 0; }
+
+.borde {
+  border: 1px solid #888; }
+
+#input, #input-buscador, #texto-buscador {
+  background-color: white;
+  border: 1px solid #c8c8c8;
+  height: 2rem; }
+
+#input-buscador {
+  font-size: 0.8rem;
+  margin: 20px;
+  padding-left: 20px;
+  width: 70%; }
+
+#texto-buscador {
+  font-size: 1rem;
+  text-transform: uppercase;
+  width: 10%; }
+
+#texto-buscador:hover {
+  opacity: .8;
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in; }
 
 li {
   display: inline-block;
   list-style: none;
   margin: 0 auto;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding-left: 20px; }
 
 header {
-  margin: 20px 0; }
+  margin: 20px; }
+
+.caja-logo {
+  width: 2%;
+  float: left;
+  margin-right: 10px; }
+
+.logo {
+  width: 100%; }
+
+nav {
+  text-align: right;
+  float: right;
+  padding-right: 50px;
+  width: 50%; }
 
 .background {
   background: url(../imagenes/home-page.jpg) no-repeat;
   background-size: cover;
-  height: 380px;
-  margin: 0auto; }
+  height: 500px;
+  padding: 50px; }
 
 .texto-descriptivo-web {
   margin: 50px auto;
-  margin: 50px;
   width: 75%; }
 
-section {
-  width: 20%;
+article {
   float: left;
-  margin-left: 30px; }
+  margin: 30px 10px;
+  position: relative;
+  width: 23%; }
 
-section:last-child {
-  margin-left: 0; }
+.texto-banner {
+  text-align: center;
+  margin-top: 60px; }
+
+.buscador {
+  margin: 100px 0;
+  width: 0 auto; }
+
+.img-article {
+  position: relative;
+  width: 100%; }
+
+.texto-imagen {
+  position: absolute;
+  bottom: 0; }
+
+@media all and (max-width: 800px) {
+  .article-no-flota {
+    clear: both; } }
 
 /*# sourceMappingURL=styles.css.map */

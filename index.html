@@ -7,41 +7,52 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <script src="js/main.js"></script>
-    <header>
-        <div class="logo left">
+    <header cf>
+        <div class="caja-logo">
+            <img class="logo" src="imagenes/logo.jpg" alt="logo de Awesome travel agengy">
         </div>
-        <span>Awesome travel agengy - We take you everywhere</span>
-    <nav left>
-      <li>home</li>
-       <li>destinations</li>
-       <li>bookings</li>
-    </nav>
-    </header>
-    <div>
-        <div class="background cf">
-        <h1>We travel everywhere and our prices rocks, what else?</h1>
-
-        <input type="text" id="input-buscador" placeholder="Find your super-travel">
-        <input type="submit" value="go" class="mayuscula">
+        <span class="texto-logo">Awesome travel agengy - We take you everywhere
+        </span>
+        <nav>
+          <li>home</li>
+          <li>destinations</li>
+          <li>bookings</li>
+      </nav>
+  </header>
+  <div>
+    <div class="background">
+        <div class="texto-banner">
+            <h1>We travel everywhere and our prices rocks, what else?</h1>
+        </div>
+        <div class="buscador">
+            <input type="text" id="input-buscador" placeholder="Find your super-travel" required"">
+            <input type="submit" value="go" id="texto-buscador">
         </div>
     </div>
-    <article class="container">
+    <section class="container cf">
         <div class="texto-descriptivo-web">
             <h2>If traveling means turning a dream into an experience through senses, then the essence of traveling should be enjoying a great meal in a newly discovered place.</h2>
         </div>
-        <section>
-            <img class="img-section" src="imagenes/sala-hotel.jpg" alt="Plato de distintos pescados">
-        </section>
-         <section>
-             <img class="img-section" src="imagenes/plato-pescado.jpg" alt="Plato de distintos pescados">
-        </section>
-        <section>
-             <img class="img-section" src="imagenes/plato-mischelin.jpg" alt="Plato de Ferran Adrià">
-        </section>
-        <section>
-             <img class="img-section" src="imagenes/hotel-vistas.jpg" alt="Vistas desde el hotel">
-        </section>
-    </article>
+        <article>
+            <h3>Price</h3>
+            <img class="img-article" src="imagenes/sala-hotel.jpg" alt="Plato de distintos pescados">
+            <p class="taggs texto-sobre-imagen">#exclusive #comfortable #service #classic #hotel</p>
+        </article>
+        <article>
+            <h3>We travel where there is great food</h3>
+            <img class="img-article borde" src="imagenes/plato-pescado.jpg" alt="Plato de distintos pescados">
+            <p class="taggs texto-sobre-imagen">#apellation #localfood</p>
+        </article>
+        <article class="article-no-flota">
+            <h3>gastronomic hotels</h3>
+            <img class="img-article" src="imagenes/plato-mischelin.jpg" alt="Plato de Ferran Adrià">
+            <p class="taggs texto-sobre-imagen">#chef #michelin #innovation</p>
+        </article>
+        <article>
+            <h3>Book in advance</h3>
+            <img class="img-article" src="imagenes/hotel-vistas.jpg" alt="Vistas desde el hotel">
+            <p class="taggs texto-sobre-imagen">Ensure your booking at our hand-selected small boutique hotels</p>
+        </article>
+    </section>
 </body>
 </html>

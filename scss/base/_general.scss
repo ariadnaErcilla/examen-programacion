@@ -16,11 +16,15 @@
     clear: both;
 }
 
-.left{
-    float: left;
+.container{
+    margin: 0 auto;
+    width: 1200px;
 }
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
+body{
+    margin: 0;
+}
+
+.borde{
+    border: 1px solid #888;
 }

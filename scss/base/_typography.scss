@@ -1,18 +1,39 @@
-h1, h2, h3, h4, p {
+body {
     margin: 0;
     padding: 0;
     font-family: "Lato";
 }
 
+h1,h2,h3,p, span{
+    margin:0;
+    padding: 0;
+}
+
 h1{
+    color: white;
     font-size: 3rem;
-    color:blue;
 }
 
 h2{
     font-size: 1.5rem;
     text-align: center;
 }
-.mayuscula{
+
+h3{
+    font-size: 0.75rem;
     text-transform: uppercase;
+    color: #888;
+    font-style: light;
+
+}
+
+.texto-logo{
+    font-size: 0.75rem;
+}
+
+.taggs{
+    font-size: 0.65rem;
+    text-align: center;
+    text-transform: uppercase;
+
 }
