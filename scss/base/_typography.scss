@@ -1,14 +1,16 @@
+// Repetición de estilo de clase que en _general.
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Lato";
 }
-
+// Unificar estilos de h1,h2,h3 concatenando
 h1,h2,h3,p, span{
     margin:0;
     padding: 0;
 }
-
+// Falta de variables, por ejemplo para declarar color, el tamaño de texto, etc...
 h1{
     color: white;
     font-size: 3rem;
@@ -23,6 +25,7 @@ h3{
     font-size: 0.75rem;
     text-transform: uppercase;
     color: #888;
+    // font-style cuando quiere decir font-weight
     font-style: light;
 
 }

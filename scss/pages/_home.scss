@@ -1,6 +1,8 @@
 .background{
     background: url(../imagenes/home-page.jpg) no-repeat;
     background-size: cover;
+    // background-position: center;
+    // No responsive y no centrada, así que la isla se esconde a tamaños pequeños viendo solo el mar
     height:500px;
     padding: 50px;
 }
@@ -18,23 +20,27 @@ article{
 
 .texto-banner{
     text-align: center;
-    margin-top: 60px
+    margin-top: 60px;
 }
 
 .buscador{
+    // text-align: center para centrar el buscador en la caja.
     margin: 100px 0;
-    width: 0 auto;
+    width: 0 auto;// Ari: ya sé que es 'margin: 0 auto' y no width, fue un lapsus
 }
 
 .img-article{
     width: 100%;
 }
-
+// No le ha dado tiempo a terminar esta clase que se supone que es "texto-sobre-imagen"
 .texto-imagen{
     position: absolute;
     bottom:0;
 }
 
+
+
+// No sirve para lo que pretendía, ya que no lo convierte en responsive
 @media all and (max-width: 600px){
     .article-no-flota{
         clear:both;

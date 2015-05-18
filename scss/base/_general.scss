@@ -11,13 +11,14 @@
     content: " ";
     display: table;
 }
-
+// Se puede unir el .cf:after
 .cf:after {
     clear: both;
 }
 
 .container{
     margin: 0 auto;
+    // al poner a .container en px no es responsive los <article> a pesar de haberlos medido en %
     width: 1200px;
 }
 
@@ -25,6 +26,6 @@ body{
     margin: 0;
 }
 
-.borde{
+.borde_anuncio{
     border: 1px solid #888;
 }

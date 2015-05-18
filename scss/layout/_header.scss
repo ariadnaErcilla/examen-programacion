@@ -1,11 +1,4 @@
-li{
-    display: inline-block;
-    list-style: none;
-    margin: 0 auto;
-    text-align: center;
-    text-transform: uppercase;
-    padding-left: 20px;
-}
+
 
 header{
     margin:20px;
@@ -20,10 +13,20 @@ header{
 .logo{
    width: 100%;
 }
-
+// Mala indentación
 nav{
     text-align: right;
   float: right;
     padding-right: 50px;
   width: 50%;
+}
+// ordenación de lógica de los elementos según lectura
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 auto;
+    // qué hace este text-align?
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 20px;
 }

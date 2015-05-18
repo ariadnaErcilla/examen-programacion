@@ -51,7 +51,7 @@ h3 {
 body {
   margin: 0; }
 
-.borde {
+.borde_anuncio {
   border: 1px solid #888; }
 
 #input, #input-buscador, #texto-buscador {
@@ -77,14 +77,6 @@ body {
   -moz-transition: all 0.1s ease-in;
   -o-transition: all 0.1s ease-in; }
 
-li {
-  display: inline-block;
-  list-style: none;
-  margin: 0 auto;
-  text-align: center;
-  text-transform: uppercase;
-  padding-left: 20px; }
-
 header {
   margin: 20px; }
 
@@ -101,6 +93,14 @@ nav {
   float: right;
   padding-right: 50px;
   width: 50%; }
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 20px; }
 
 .background {
   background: url(../imagenes/home-page.jpg) no-repeat;
